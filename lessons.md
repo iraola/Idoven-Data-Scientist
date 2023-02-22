@@ -1,0 +1,4 @@
+- I didn't know how to read the ECG data provided, so I started with the example_physionet.py at the pysionet repo and installed the Python package `wfdb` to start learning about this new data format
+- Two folders: records100/ and records500/ for the different sampling in Hz
+- SCP-ECG stands for Standard communications protocol for computer assisted electrocardiography (wikipedia)
+- Cross-validation Folds are in ptbxl_database.csv. The original example_physionet.py only distinguishes 10 for 'test', but rembemer we are told to uso 9 for val and 10 for test
